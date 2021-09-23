@@ -1,0 +1,115 @@
+Зарание  1:
+using System;
+
+namespace Lab4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int s = 0;
+            int p = 0;
+            Console.Write("a =  ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("b =  ");
+            int b = int.Parse(Console.ReadLine());
+            s = a * b;
+            Console.WriteLine("S = (a * b) = " + s);
+            p = 2 * (a + b);
+            Console.WriteLine("P = 2 * (a + b) = " + p);
+        }
+    }
+}
+Задание 2:
+  using System;
+
+namespace Lab4._2
+{
+    class Program
+    {
+        
+        static void Main(string[] args)
+        {
+            double l = 0;
+            Console.WriteLine("d = ");
+            double d = int.Parse(Console.ReadLine());
+            l = Math.PI * d;
+            Console.WriteLine("L = pi * d = " + l);
+        }
+    }
+}
+Задание 3:
+using System;
+
+namespace Lba_4._3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            double result = 0;
+            Console.WriteLine("a = ");
+            int a = int.Parse(Console.ReadLine());
+            Console.WriteLine("b = ");
+            int b = int.Parse(Console.ReadLine());
+            result = (double)(a + b) / 2;
+            Console.WriteLine("result = (a + b) / 2 = " + result);
+         }
+    }
+}
+Задание 4:
+using System;
+
+namespace Lab4._4
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sum = 0;
+            int difference = 0;
+            int multiplic = 0;
+            int division = 0;
+            Console.Write("Введите ненулевое число A: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Введите ненулевое число B: ");
+            int b = int.Parse(Console.ReadLine());
+            sum = a + b;
+            Console.WriteLine("a + b = " + sum);
+            difference = a - b;
+            Console.WriteLine("a - b = " + difference);
+            multiplic = a * b;
+            Console.WriteLine("a * b = " + multiplic);
+            division = (a / b) ^ 2;
+            Console.WriteLine("(a / b) ^ 2 = " + division);
+        }
+    }
+}
+Задание 5:
+using System;
+
+namespace Lab4._5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sum = 0;
+            int difference = 0;
+            int multiplic = 0;
+            int module = 0;
+            Console.Write("Введите ненулевое число A: ");
+            int a = int.Parse(Console.ReadLine());
+            Console.Write("Введите ненулевое число B: ");
+            int b = int.Parse(Console.ReadLine());
+            sum = a + b;
+            Console.WriteLine("a + b = " + sum);
+            difference = a - b;
+            Console.WriteLine("a - b = " + difference);
+            multiplic = a * b;
+            Console.WriteLine("a * b = " + multiplic);
+            module = Math.Abs(a / b);
+            Console.WriteLine("|a / b| = " + module);
+        }
+    }
+}
